@@ -1,0 +1,31 @@
+ÀÄsicaklik sensoru kod
+   ÀÄmain  0/424  Ram=4
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@ITOF  0/31  Ram=2
+      ÃÄ@MULFF  0/117  Ram=13
+      ÃÄ@MULFF  0/117  Ram=13
+      ÃÄ@DIVFF  0/204  Ram=14
+      ÃÄ@ADDFF  0/323  Ram=16
+      ÃÄ@FLT  0/63  Ram=10
+      ÃÄ@FLT  0/63  Ram=10
+      ÃÄ@PSTRINGCN7_9600_62_63  0/89  Ram=5
+      ÃÄ@PRINTF_L32D_9600_62_63FPFPF  0/228  Ram=13
+      ³  ÃÄ@MULFF  0/117  Ram=13
+      ³  ÃÄ@FTOSD  (Inline)  Ram=5
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÀÄ@DIV3232  0/79  Ram=13
+      ÃÄ@PSTRINGC7_9600_62_63  0/88  Ram=4
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@FLT  0/63  Ram=10
+      ÃÄ@FLT  0/63  Ram=10
+      ÃÄ@PSTRINGCN7_9600_62_63  0/89  Ram=5
+      ÃÄ@PRINTF_L32D_9600_62_63FPFPF  0/228  Ram=13
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_9600_62_63  0/88  Ram=4
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@FLT  0/63  Ram=10
+      ÃÄ@PSTRINGCN7_9600_62_63  0/89  Ram=5
+      ÃÄ@PRINTF_L32D_9600_62_63FPFPF  0/228  Ram=13
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_9600_62_63  0/88  Ram=4
+      ÀÄ@delay_ms1  0/21  Ram=1
