@@ -1,0 +1,141 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     deger
+021-024 gerilim
+025-028 sicaklik
+029-02A @sprintf_string
+02B     @PSTRINGCN7_9600_62_63.P1
+02B-02C @ITOF.P2
+02B-02E @FLT.P3
+02B-02E @PRINTF_L32D_9600_62_63FPFPF.P4
+02B-02E @DIVFF.P5
+02B     main.@SCRATCH1
+02B     @PSTRINGC7_9600_62_63.@SCRATCH1
+02C     @delay_ms1.P1
+02C     main.@SCRATCH2
+02C     @PSTRINGCN7_9600_62_63.@SCRATCH1
+02C     @PSTRINGC7_9600_62_63.@SCRATCH2
+02D     main.@SCRATCH3
+02D     @PSTRINGCN7_9600_62_63.@SCRATCH2
+02D     @PSTRINGC7_9600_62_63.@SCRATCH3
+02E     main.@SCRATCH4
+02E     @PSTRINGCN7_9600_62_63.@SCRATCH3
+02E     @PSTRINGC7_9600_62_63.@SCRATCH4
+02F-032 @DIVFF.P1
+02F-032 @ADDFF.P2
+02F     @PRINTF_L32D_9600_62_63FPFPF.P3
+02F-032 @FLT.P4
+02F     @PSTRINGCN7_9600_62_63.@SCRATCH4
+030     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH1
+031     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH2
+032     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH3
+033-036 @ADDFF.P1
+033     @DIVFF.@SCRATCH1
+033     @FLT.@SCRATCH1
+033     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH4
+034     @DIVFF.@SCRATCH2
+034     @FLT.@SCRATCH2
+034     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH5
+035     @DIVFF.@SCRATCH3
+035     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH6
+036     @DIVFF.@SCRATCH4
+036     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH7
+037     @DIVFF.@SCRATCH5
+037     @ADDFF.@SCRATCH1
+037     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH8
+038-03B @FTOSD.P1
+038-03B @MULFF.P2
+038-03B @DIV3232.P3
+038     @DIVFF.@SCRATCH6
+038     @ADDFF.@SCRATCH2
+039     @ADDFF.@SCRATCH3
+03A     @ADDFF.@SCRATCH4
+03B     @ADDFF.@SCRATCH5
+03C-03F @MULFF.P1
+03C-03F @DIV3232.P2
+03C     @ADDFF.@SCRATCH6
+03C     @FTOSD.@SCRATCH1
+03D     @ADDFF.@SCRATCH7
+03E     @ADDFF.@SCRATCH8
+040     @MULFF.@SCRATCH1
+040     @DIV3232.@SCRATCH1
+041     @MULFF.@SCRATCH2
+041     @DIV3232.@SCRATCH2
+042     @MULFF.@SCRATCH3
+042     @DIV3232.@SCRATCH3
+043     @MULFF.@SCRATCH4
+043     @DIV3232.@SCRATCH4
+044     @MULFF.@SCRATCH5
+044     @DIV3232.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const610.call
+00000E  @const621.call
+000014  @const626.call
+00001E  @const627.call
+000024  @const628.call
+00002E  @const629.call
+000034  @ITOF
+000053  @MULFF
+0000C8  @DIVFF
+000194  @ADDFF
+0002D7  @FLT
+000316  @PSTRINGCN7_9600_62_63
+00036F  @DIV3232
+0003BE  @PRINTF_L32D_9600_62_63FPFPF
+0003E5  @FTOSD
+0004A2  @PSTRINGC7_9600_62_63
+0004FA  @delay_ms1
+00050F  main
+00050F  @cinit1
+000521  @cinit2
+
+Project Directory:
+    C:\Users\Eray\Desktop\Pic16f877 Projelerii\Bluetooth ile  Sýcaklýk Sensörü\
+
+Project Files:
+    sicaklik sensoru kod.c                                  [14-Eyl-22 00:56  CRC=3116102B]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16f877.h [08-Eyl-15 15:15  CRC=143AECBE]
+
+Source signature=598BE9A7
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=B9BA
+
+Units:
+    sicaklik sensoru kod (main)
+
+Compiler Settings:
+    Processor:      PIC16F877
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   sicaklik sensoru kod.xsym
+    Errors:      sicaklik sensoru kod.err
+    Ext Symbols: sicaklik sensoru kod.esym
+    INHX8:       sicaklik sensoru kod.hex
+    Symbols:     sicaklik sensoru kod.sym
+    List:        sicaklik sensoru kod.lst
+    Debug/COFF:  sicaklik sensoru kod.cof
+    Project:     sicaklik sensoru kod.ccspjt
+    Call Tree:   sicaklik sensoru kod.tre
+    Statistics:  sicaklik sensoru kod.STA

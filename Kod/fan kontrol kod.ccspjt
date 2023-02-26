@@ -1,0 +1,95 @@
+[PROJECT]
+Target=sicaklik sensoru kod.hex
+Processor_Text=PIC16F877
+CCSVersion=5.049
+Compiler=PCM
+[Target Data]
+FileList=sicaklik sensoru kod.c
+[sicaklik sensoru kod.c]
+Type=4
+[mru-list]
+1=sicaklik sensoru kod.c
+
+[defines]
+buildcount=44
+
+[Opened Files]
+1=sicaklik sensoru kod.c
+t1=25
+2=..\Pwm ile dc motor sürme\pwm ile dc motor surme kod.c
+t2=17
+Count=1
+3=..\..\uart analog.c
+t3=21
+
+[ProjectLog]
+Days=6
+D1=26-08-2022
+D1_L=2
+D1_L1=[56951]Stopped Editing.
+TotalEdit=65
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L2=[56951]Project Closed.
+D2=27-08-2022
+D2_L=8
+D2_L1=[53486]Project Opened.
+D2_L2=[53516]Started Editing.
+D2_L3=[55003]Project Closed.
+D2_L4=[58326]Project Opened.
+D2_L5=[60055]Project Closed.
+D2_L6=[60520]Project Opened.
+D2_L7=[60554]Started Editing.
+D2_L8=[60828]Project Closed.
+D3=13-09-2022
+D3_L=20
+D3_L1=[57363]Project Opened.
+D3_L2=[57537]Started Editing.
+D3_L3=[57906]Stopped Editing.
+D3_L4=[58215]Started Editing.
+D3_L5=[58249]Stopped Editing.
+D3_E=41
+D3_D=0
+D3_L6=[58288]Started Editing.
+D3_L7=[59746]Stopped Editing.
+D3_L8=[61270]Started Editing.
+D3_L9=[61606]Stopped Editing.
+D3_L10=[61847]Started Editing.
+D3_L11=[62147]Stopped Editing.
+D3_L12=[62477]Project Closed.
+D3_L13=[63582]Project Opened.
+D3_L14=[63595]Started Editing.
+D3_L15=[64078]Stopped Editing.
+D3_L16=[67466]Project Closed.
+D3_L17=[76129]Project Opened.
+D3_L18=[76197]Started Editing.
+D3_L19=[77055]Stopped Editing.
+D3_L20=[77055]Project Closed.
+D4=14-09-2022
+D4_L=12
+D4_L1=[609]Project Opened.
+D4_L2=[900]Started Editing.
+D4_L3=[1853]Stopped Editing.
+D4_L4=[2593]Started Editing.
+D4_L5=[2990]Stopped Editing.
+D4_L6=[3230]Started Editing.
+D4_L7=[3631]Stopped Editing.
+D4_E=20
+D4_D=0
+D4_L8=[3631]Project Closed.
+D4_L9=[59044]Project Opened.
+D4_L10=[59521]Project Closed.
+D4_L11=[60518]Project Opened.
+D4_L12=[61973]Project Closed.
+D5=25-09-2022
+D5_L=2
+D5_L1=[80669]Project Opened.
+D5_L2=[80725]Project Closed.
+D6=27-02-2023
+D6_L=2
+D6_L1=[7122]Project Opened.
+D6_L2=[7131]Project Closed.
+[Units]
+Count=1
+1=sicaklik sensoru kod (main)
